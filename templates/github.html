@@ -1,0 +1,15 @@
+<h1> Todo - display github user info for user {{github_username}} </h1>
+
+<h1>GitHub info For User: {{ user_info.login}}</h1> #display username
+
+<p> User's name {{ user_info.name}}</p>#display name
+
+<p>Public Repository Count: {{ user_info_repos }}</p> #display public repo count
+
+<p><a href ="{{ user_info.home_page }}"> View user's repositories at GitHub </a></p> #link to user's github page
+
+<p>
+
+<img > src="{{ user_info.avatar_url }}">
+</p>
+</a></p>
